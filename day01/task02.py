@@ -3,7 +3,8 @@ secund = int(input("Введи число секунд: "))
 minuts = (secund%3600) // 60
 chas = (secund%86400) // 3600
 day = secund // 86400
-print(f'{day} дн. {chas} ч. {minuts} мин. {secund} сек.')
+sec = secund % 60
+print(f'{day} дн. {chas} ч. {minuts} мин. {sec} сек.')
 
 '''
 

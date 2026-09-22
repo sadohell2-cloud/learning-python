@@ -8,4 +8,5 @@ res = {
     '*':a*b,
     '/':a/b if b != 0 else print('На ноль делить нельзя')
 }
-print(res[op])
+if b != 0 and op != '/' : print(res[op]);
+
